@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:white;
+    /*color: white;*/
+    display: flex;
+    padding: 5px;
+    flex-direction:column;
+}
+
+header {
+    background-color: Silver;
+    color: white;
+    display: flex;
+    height: 200px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+header img {
+    height: 90%;
+    width: auto;
+    margin: 0;
+    padding: 1%;
+    border-radius: 30%;
+    flex-grow: 0;
+}
+
+.introduccion {
+    font-family: 'Merriweather', serif;
+    flex-grow: 1;
+    text-align: left;
+    height: auto;
+    width: auto;
+    font-size: auto;
+    flex: 0 0 auto;     
+    margin: auto 10px;
+}
