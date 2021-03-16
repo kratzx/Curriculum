@@ -3648,6 +3648,10 @@ tbody.collapse.show {
     flex: 1 1 auto;
     padding: 1.25rem
 }
+.card-body-language {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
 
 .card-title {
     margin-bottom: .75rem
